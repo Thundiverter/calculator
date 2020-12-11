@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="src/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;900&display=swap" rel="stylesheet">
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="src/hamburger.css" rel="stylesheet">
+    </head>
+    <body>
+		<!-- App header -->
+		<header>
+			<p>Calculator</p>
+			<button class="hamburger hamburger--squeeze" type="button">
+				<span class="hamburger-box">
+					<span class="hamburger-inner"></span>
+				</span>
+			</button>
+		</header>
+	
+		<div id="app">
+			<!-- Place to show results -->
+			<section id="result">
+				<p id="p-actions">0</p>
+				<p id="p-result">0</p>
+			</section>
+			
+			<!-- Buttons -->
+			<div class="flex">
+				<section class="btns" id="controls">
+					<button onclick="act(7)">7</button><button onclick="act(8)">8</button><button onclick="act(9)">9</button>
+					<button onclick="act(4)">4</button><button onclick="act(5)">5</button><button onclick="act(6)">6</button>
+					<button onclick="act(1)">1</button><button onclick="act(2)">2</button><button onclick="act(3)">3</button>
+					<button onclick="act(.)">.</button><button onclick="act(0)">0</button><button class="button-equal" onclick="act('=')">=</button>
+				</section>
+				<section class="btns" id="controls2">
+					<button onclick="act('c')">⌫</button><button onclick="act('+')">+</button><button onclick="act('-')">-</button>
+					<button onclick="act('*')">×</button><button onclick="act('/')">÷</button>
+				</section>
+			</div>
+			
+			<!--<button id="showmore">∧</button>-->
+		</div>
+		
+		<div id="menu">
+			<a href="/">Calculator</a>
+			<a href="/">Date & Time</a>
+			<a href="/">Percents</a>
+			<h2>a</h2>
+			<a href="/">Calculator</a>
+			<a href="/">Date & Time</a>
+			<a href="/">Percents</a>
+		</div>
+		
+		<!-- Script -->
+		<script src="src/main.js"></script>
+		<script src="src/calculators/calc.js"></script>
+    </body>
+</html>
