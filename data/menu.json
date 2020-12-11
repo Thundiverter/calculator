@@ -1,0 +1,8 @@
+{
+	"menu": [
+		{"href": "/", "t-en": "Calculator", "t-ru": "Калькулятор"},
+		{"href": "/", "t-en": "Date & Time", "t-ru": "Дата и время"},
+		{"type": "header", "t-en": "Physics", "t-ru": "Физика"},
+		{"href": "/", "t-en": "Speed, time, distance", "t-ru": "Скорость, время, расстояние"}
+	]
+}
